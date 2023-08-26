@@ -60,8 +60,8 @@ class _TimeonetwoState extends State<Timeonetwo> {
                               doneaa ? null : TextDecoration.lineThrough,
                           fontSize: 14,
                           color: doneaa
-                              ? Color.fromARGB(255, 0, 50, 130)
-                              : Color.fromARGB(255, 130, 11, 0),
+                              ? const Color.fromARGB(255, 0, 50, 130)
+                              : const Color.fromARGB(255, 130, 11, 0),
                           fontWeight: FontWeight.bold),
                     )),
                   )),
@@ -73,7 +73,7 @@ class _TimeonetwoState extends State<Timeonetwo> {
                             width: 1,
                             color: const Color.fromARGB(255, 76, 96, 175)),
                         borderRadius: BorderRadius.circular(80),
-                        color: Color.fromARGB(40, 0, 13, 255)),
+                        color: const Color.fromARGB(40, 0, 13, 255)),
                     width: 80,
                     height: 40,
                     child: const Center(
